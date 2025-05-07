@@ -44,7 +44,7 @@ int main() {
     printf("Start Time: %s", ctime(&time_start));
     printf("End Time: %s", ctime(&time_end));
     printf("CPU Time: %.6f seconds\n", cpu_time);
-    printf("Wall Time: %.2f seconds\n", wall_time);
+    printf("Real Time: %.2f seconds\n", Real_time);
 
     return 0;
 }
